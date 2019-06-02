@@ -1,0 +1,207 @@
+* {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+html, body {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin-top: 0;
+}
+
+header {
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header1 {
+    position: relative;
+    display: inline-flex;
+    padding-bottom: 0;
+    bottom: 0;
+}
+
+.main-nav {
+    padding-left: 473px;
+}
+
+.nav2 {
+    padding-left: 303px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a:link, a:visited {
+    color: #777777;
+}
+
+a:hover {
+    color: #0781be;
+}
+
+#About,
+#Portfolio,
+#Contact {
+    float: right;
+    padding: 10px 0 0px 24px;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    background: #0781be;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: left;
+    padding: 20px 20px 25px 20px;
+    position: relative;
+    width: 205px;
+    height: 30px;
+    margin-top: 0;
+}
+
+h2 {
+    color: #0781be;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    border: 2px;
+    border-bottom-style: solid;
+    border-color: #c2c2c2;
+}
+
+.container {
+    background-image: url("../images/gravel.png");
+    border-top: 2px solid #c2c2c2;
+    min-height: 100%;
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden;
+    position: relative;
+    padding-top: 0;
+}
+
+.container2 {
+    background-color: white;
+    border: #dddddd;
+    margin: auto;
+    width: 960px;
+    position: relative;
+    top: 20px;
+}
+
+.container3 {
+    background-color: white;
+    border: #dddddd;
+    margin: 0 auto;
+    width: 790px;
+    position: relative;
+    top: 20px;
+    overflow: hidden;
+}
+
+.main-content {
+    border: 1px solid #dddddd;
+    padding: 20px;  
+    margin: auto;
+    position: relative;
+    overflow: auto;
+}
+
+.main-content1 {
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 20px;  
+    margin: auto;
+    width: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+#bio-image {
+    float: left;
+    padding: 0px 20px 20px 0;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5 {
+    position: relative;
+    float: left;
+    padding: 10px 30px 15px 0;
+}
+
+.Scenic,
+.Tour,
+.Speed,
+.Luxury,
+.Fun {
+    position: absolute;
+    background: #0781be;
+    color: white;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    top: 130px;
+}
+
+.image1:hover, 
+.image2:hover, 
+.image3:hover, 
+.image4:hover, 
+.image5:hover {
+    opacity: 0.7;
+}
+
+form {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+    border 1px solid #999;
+}
+
+input, textarea {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 735px;
+    padding: 5px;
+}
+
+textarea {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 12em;
+    padding: 5px;
+}
+
+button {
+    background: #0781be;
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
+
+button:hover {
+    background-color: #c2c2c2;
+}
+
+footer {
+    background: #666666;
+    border-top: 8px solid #0781be;
+    color: white;
+    font-size: 8px;
+    height: 40px;
+    text-align: center;
+    line-height: 50px;
+    bottom: 0;
+    width: 100%;
+}
