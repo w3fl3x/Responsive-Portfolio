@@ -14,6 +14,7 @@ html, body {
 header {
     color: #777777;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    position: static;
 }
 
 .header1 {
@@ -204,4 +205,22 @@ footer {
     line-height: 50px;
     bottom: 0;
     width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+
+    }
 }
