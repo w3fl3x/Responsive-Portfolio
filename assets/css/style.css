@@ -94,6 +94,16 @@ h3 {
     text-align: center;
     text-decoration: none;
     background: #0781be;
+    -webkit-animation-name: colorchange;
+    -webkit-animation-duration: 5s;
+    animation-name: colorchange;
+    animation-duration: 5s;
+}
+
+@keyframes colorchange {
+    from {background-color: #85754d;}
+    to {background-color: #b7a57a;}
+    to {background-color: #4b2e83;}
 }
   
 nav {
@@ -185,6 +195,10 @@ h3, h2 {
     text-align: center;
     background: #0781be;
     border-bottom: 0;
+    -webkit-animation-name: colorchange;
+    -webkit-animation-duration: 5s;
+    animation-name: colorchange;
+    animation-duration: 5s;
 }
   
 .auth-image {
