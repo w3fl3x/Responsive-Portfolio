@@ -247,3 +247,7 @@ nav a:hover {
   cursor: pointer;
   opacity: 0.8;
 }
+
+.work:hover {
+    opacity: 0.8;
+}
